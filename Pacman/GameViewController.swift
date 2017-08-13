@@ -9,11 +9,34 @@
 import UIKit
 import SpriteKit
 import GameplayKit
+import CDJoystick
 
 class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        let joystick = CDJoystick()
+        joystick.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        joystick.backgroundColor = .clear
+        
+        joystick.substrateColor = .lightGray
+        joystick.substrateBorderColor = .gray
+        joystick.substrateBorderWidth = 1.0
+        joystick.stickSize = CGSize(width: 50, height: 50)
+        joystick.stickColor = .darkGray
+        joystick.stickBorderColor = .black
+        joystick.stickBorderWidth = 2.0
+        joystick.fade = 0.5
+        
+        joystick.trackingHandler = { joystickData in
+            //            self.objectView.center.x += joystickData.velocity.x
+            //            self.objectView.center.y += joystickData.velocity.y
+            print(joystickData.velocity.x)
+            print(joystickData.velocity.y)
+        }
+
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
@@ -29,9 +52,14 @@ class GameViewController: UIViewController {
             
             view.showsFPS = true
             view.showsNodeCount = true
-        }
-    }
 
+            view.addSubview(joystick)
+        }
+        
+     }
+
+    
+    
     override var shouldAutorotate: Bool {
         return true
     }

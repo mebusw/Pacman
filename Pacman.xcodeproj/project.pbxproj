@@ -17,6 +17,9 @@
 		85DAA32C1F40495000625A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DAA32A1F40495000625A1E /* LaunchScreen.storyboard */; };
 		85DAA3371F40495000625A1E /* PacmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DAA3361F40495000625A1E /* PacmanTests.swift */; };
 		85DAA3421F40495000625A1E /* PacmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DAA3411F40495000625A1E /* PacmanUITests.swift */; };
+		A07EFFECD3A9DB69C767D0E1 /* Pods_PacmanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012C9C596EA301397ADC6D18 /* Pods_PacmanTests.framework */; };
+		BB5D7709B8CD85AD16093B59 /* Pods_Pacman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AE4F82DFE0A90FB9507EC0 /* Pods_Pacman.framework */; };
+		FEBDD750552F168692C30CEF /* Pods_PacmanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033F02030FA75B1BB3AFD1AB /* Pods_PacmanUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		012C9C596EA301397ADC6D18 /* Pods_PacmanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PacmanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		033F02030FA75B1BB3AFD1AB /* Pods_PacmanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PacmanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE391EF2A299E0DE85904E3 /* Pods-PacmanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacmanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PacmanTests/Pods-PacmanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67C6D841B6C1666ABC603BAF /* Pods-PacmanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacmanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PacmanTests/Pods-PacmanTests.release.xcconfig"; sourceTree = "<group>"; };
 		85DAA3181F40495000625A1E /* Pacman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pacman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DAA31B1F40495000625A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85DAA31D1F40495000625A1E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +60,12 @@
 		85DAA33D1F40495000625A1E /* PacmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PacmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DAA3411F40495000625A1E /* PacmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacmanUITests.swift; sourceTree = "<group>"; };
 		85DAA3431F40495000625A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DAA34F1F404A5700625A1E /* Pacman-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pacman-Bridging-Header.h"; sourceTree = "<group>"; };
+		A0AE4F82DFE0A90FB9507EC0 /* Pods_Pacman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pacman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AAB31EF11D9AAF681E3475 /* Pods-Pacman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pacman.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pacman/Pods-Pacman.release.xcconfig"; sourceTree = "<group>"; };
+		C6D25B9FC6C61337C24A593C /* Pods-PacmanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacmanUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PacmanUITests/Pods-PacmanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8FE7EE04C232144DD3901BA /* Pods-PacmanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacmanUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PacmanUITests/Pods-PacmanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAF3C126DE9C3178CF16E6B0 /* Pods-Pacman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pacman.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pacman/Pods-Pacman.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5D7709B8CD85AD16093B59 /* Pods_Pacman.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07EFFECD3A9DB69C767D0E1 /* Pods_PacmanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEBDD750552F168692C30CEF /* Pods_PacmanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C18A244926010D62F8F035B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0AE4F82DFE0A90FB9507EC0 /* Pods_Pacman.framework */,
+				012C9C596EA301397ADC6D18 /* Pods_PacmanTests.framework */,
+				033F02030FA75B1BB3AFD1AB /* Pods_PacmanUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85DAA30F1F40495000625A1E = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +113,8 @@
 				85DAA3351F40495000625A1E /* PacmanTests */,
 				85DAA3401F40495000625A1E /* PacmanUITests */,
 				85DAA3191F40495000625A1E /* Products */,
+				B1D865254247B71976350A61 /* Pods */,
+				1C18A244926010D62F8F035B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +140,7 @@
 				85DAA3281F40495000625A1E /* Assets.xcassets */,
 				85DAA32A1F40495000625A1E /* LaunchScreen.storyboard */,
 				85DAA32D1F40495000625A1E /* Info.plist */,
+				85DAA34F1F404A5700625A1E /* Pacman-Bridging-Header.h */,
 			);
 			path = Pacman;
 			sourceTree = "<group>";
@@ -134,6 +163,19 @@
 			path = PacmanUITests;
 			sourceTree = "<group>";
 		};
+		B1D865254247B71976350A61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAF3C126DE9C3178CF16E6B0 /* Pods-Pacman.debug.xcconfig */,
+				B9AAB31EF11D9AAF681E3475 /* Pods-Pacman.release.xcconfig */,
+				0BE391EF2A299E0DE85904E3 /* Pods-PacmanTests.debug.xcconfig */,
+				67C6D841B6C1666ABC603BAF /* Pods-PacmanTests.release.xcconfig */,
+				D8FE7EE04C232144DD3901BA /* Pods-PacmanUITests.debug.xcconfig */,
+				C6D25B9FC6C61337C24A593C /* Pods-PacmanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85DAA3461F40495000625A1E /* Build configuration list for PBXNativeTarget "Pacman" */;
 			buildPhases = (
+				F309BB506D9A080F983BC39B /* [CP] Check Pods Manifest.lock */,
 				85DAA3141F40495000625A1E /* Sources */,
 				85DAA3151F40495000625A1E /* Frameworks */,
 				85DAA3161F40495000625A1E /* Resources */,
+				AE441F95121D4C5F4A0CB47C /* [CP] Embed Pods Frameworks */,
+				82FA3C5335C091DABF22E479 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85DAA3491F40495000625A1E /* Build configuration list for PBXNativeTarget "PacmanTests" */;
 			buildPhases = (
+				ACF0284DF295CBCA39C42E4F /* [CP] Check Pods Manifest.lock */,
 				85DAA32E1F40495000625A1E /* Sources */,
 				85DAA32F1F40495000625A1E /* Frameworks */,
 				85DAA3301F40495000625A1E /* Resources */,
+				429A299C542E1BC39F34512A /* [CP] Embed Pods Frameworks */,
+				D71C5F3A238C8F0862F7BFFE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85DAA34C1F40495000625A1E /* Build configuration list for PBXNativeTarget "PacmanUITests" */;
 			buildPhases = (
+				6E5DE435C4432E61BB5A55FC /* [CP] Check Pods Manifest.lock */,
 				85DAA3391F40495000625A1E /* Sources */,
 				85DAA33A1F40495000625A1E /* Frameworks */,
 				85DAA33B1F40495000625A1E /* Resources */,
+				EA65FD61B236EA8622F5D55C /* [CP] Embed Pods Frameworks */,
+				265AA18DE07DA2E862599505 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +253,7 @@
 				TargetAttributes = {
 					85DAA3171F40495000625A1E = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					85DAA3311F40495000625A1E = {
@@ -264,6 +316,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		265AA18DE07DA2E862599505 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PacmanUITests/Pods-PacmanUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		429A299C542E1BC39F34512A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PacmanTests/Pods-PacmanTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E5DE435C4432E61BB5A55FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PacmanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82FA3C5335C091DABF22E479 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pacman/Pods-Pacman-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF0284DF295CBCA39C42E4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PacmanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE441F95121D4C5F4A0CB47C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pacman/Pods-Pacman-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CDJoystick/CDJoystick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDJoystick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pacman/Pods-Pacman-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D71C5F3A238C8F0862F7BFFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PacmanTests/Pods-PacmanTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA65FD61B236EA8622F5D55C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PacmanUITests/Pods-PacmanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F309BB506D9A080F983BC39B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pacman-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85DAA3141F40495000625A1E /* Sources */ = {
@@ -422,30 +624,38 @@
 		};
 		85DAA3471F40495000625A1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF3C126DE9C3178CF16E6B0 /* Pods-Pacman.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Pacman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mebusw.Pacman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pacman/Pacman-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		85DAA3481F40495000625A1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9AAB31EF11D9AAF681E3475 /* Pods-Pacman.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Pacman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mebusw.Pacman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pacman/Pacman-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		85DAA34A1F40495000625A1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE391EF2A299E0DE85904E3 /* Pods-PacmanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +670,7 @@
 		};
 		85DAA34B1F40495000625A1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C6D841B6C1666ABC603BAF /* Pods-PacmanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -474,6 +685,7 @@
 		};
 		85DAA34D1F40495000625A1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FE7EE04C232144DD3901BA /* Pods-PacmanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PacmanUITests/Info.plist;
@@ -487,6 +699,7 @@
 		};
 		85DAA34E1F40495000625A1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D25B9FC6C61337C24A593C /* Pods-PacmanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PacmanUITests/Info.plist;
@@ -517,6 +730,7 @@
 				85DAA3481F40495000625A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85DAA3491F40495000625A1E /* Build configuration list for PBXNativeTarget "PacmanTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +739,7 @@
 				85DAA34B1F40495000625A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85DAA34C1F40495000625A1E /* Build configuration list for PBXNativeTarget "PacmanUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +748,7 @@
 				85DAA34E1F40495000625A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
